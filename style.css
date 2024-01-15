@@ -26,8 +26,8 @@ body {
     justify-content: center;
     gap: 40px;
     padding-top: 39px;
-    paddding-bottom: 39px;
-    borer-radius: 10px;
+    padding-bottom: 39px;
+    border-radius: 10px;
 
 
 }
@@ -184,4 +184,122 @@ body {
     font-weight: 600;
     line-height: 160%;
     opacity: 0.7;
+}
+
+
+.content__client {
+    width: 1146px;
+    padding-left: calc(50% - 1146px / 2);
+    padding-right: calc(50% - 1146px / 2);
+    display: flex;
+    align-content: center;
+    align-items: stretch;
+    margin-bottom: 221px;
+
+}
+
+
+
+.subtitle__h3 {
+    width: 548px;
+    color: var(--ffffff, #FFF);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    padding-bottom: 40px;
+}
+
+.text__p3 {
+    width: 460px;
+    color: var(--ffffff, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    opacity: 0.7;
+    padding: 20px;
+}
+
+
+.footer {
+    padding-left: calc(50% - 1146px / 2);
+    padding-right: calc(50% - 1146px / 2);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.subtitle__footer {
+    width: 209.042px;
+    color: var(--ffffff, #FFF);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 33px;
+}
+
+.text__inform {
+    width: 261px;
+    padding-bottom: 24px;
+    color: var(--ffffff, #FFF);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal
+    
+}
+
+.subtitle__store {
+    width: 228.623px;
+    padding-bottom: 33px;
+    color: var(--ffffff, #FFF);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal
+}
+
+.text__store {
+    width: 261px;
+    opacity: 0.6;
+    color: var(--ffffff, #FFF);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: normal
+    
+}
+
+.subtitle__as {
+    width: 228.851px;
+    padding-bottom: 33px;
+    color: var(--ffffff, #FFF);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text__as {
+    width: 261px;
+    padding-bottom: 24px;
+    color: var(--ffffff, #FFF);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal
+}
+
+.img__footer {
+    display: flex;
+    gap: 24px;
+    opacity: 0.6;
 }
